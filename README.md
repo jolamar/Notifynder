@@ -37,13 +37,13 @@ Add the following string to **config/app.php**
 **Providers array:**
 
 ~~~
-'Fenos\Notifynder\NotifynderServiceProvider'
+Fenos\Notifynder\NotifynderServiceProvider::class,
 ~~~
 
 **Aliases array:**
 
 ~~~
-'Notifynder'    => 'Fenos\Notifynder\Facades\Notifynder'
+'Notifynder'=> Fenos\Notifynder\Facades\Notifynder::class,
 ~~~
 
 ### Step 3 ###
